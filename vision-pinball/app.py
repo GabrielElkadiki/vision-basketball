@@ -2,15 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for, session
 app = Flask(__name__)
 import csv
 
-@app.route('/')
 
+@app.route('/')
 def index():
     return render_template('index.html')
-
-
-@app.route('/<name>')
-def hello_name(name):
-    return "Hello {}!".format(name)
 
 
 @app.route("/sys_info.json")

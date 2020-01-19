@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Hind');
 
 *, *::before, *::after {
 	box-sizing: border-box;
@@ -23,12 +22,6 @@ body {
 .container {
 	position: relative;
 	line-height: 0;
-}
-
-.score {
-	position: absolute;
-	top: 10px;
-	line-height: 1;
 }
 
 .score span {
