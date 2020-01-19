@@ -1,5 +1,6 @@
-# vision-basketball
-A wrnch based basketball game using Panda3D
+# vision-minigames
+WrnchAI based minigames using Python Flask and Javascript
+
 ## Inspiration
 We found the wrnchAI framework really interesting and wanted to make a fun, simple game out of it.
 
